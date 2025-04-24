@@ -90,4 +90,25 @@ elif magnitud < 7:
 else:
     print("Extremo (puede causar graves daños a gran escala)")
 
-    
+    # Actividad 10
+hemisferio = input("¿En qué hemisferio estás? (N para norte / S para sur): ").strip().upper()
+mes = int(input("Ingrese el mes (1 a 12): "))
+dia = int(input("Ingrese el día del mes: "))
+
+if not (1 <= mes <= 12 and 1 <= dia <= 31):
+    print("Fecha inválida.")
+else:
+    estacion = ""
+
+    if (mes == 12 and dia >= 21) or (1 <= mes <= 2) or (mes == 3 and dia <= 20):
+        estacion = "Invierno" if hemisferio == "N" else "Verano"
+    elif (mes == 3 and dia >= 21) or (4 <= mes <= 5) or (mes == 6 and dia <= 20):
+        estacion = "Primavera" if hemisferio == "N" else "Otoño"
+    elif (mes == 6 and dia >= 21) or (7 <= mes <= 8) or (mes == 9 and dia <= 20):
+        estacion = "Verano" if hemisferio == "N" else "Invierno"
+    elif (mes == 9 and dia >= 21) or (10 <= mes <= 11) or (mes == 12 and dia <= 20):
+        estacion = "Otoño" if hemisferio == "N" else "Primavera"
+    else:
+        estacion = "Fecha no reconocida"
+
+    print(f"Te encontrás en {estacion}.")
