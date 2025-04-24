@@ -1,1 +1,2 @@
-# Estructuras-condicionales
+ Con el objetivo de ejercitar y afianzar el uso de estructuras condicionales (if, elif, else), el manejo de entrada de datos del usuario, y la aplicación de lógica en distintos contextos se realizaron los siguientes ejercicios:
+  Verificación de mayoría de edad, evaluación académica, validación de número par, clasificación etaria, validacion de longitud de contraseña, analisis estadistico de distribucion, verificacion de terminacion vocalica, formateo de cadenas, clasificacion sisimica segun escala de Richter, determinacion de estacion del año.
