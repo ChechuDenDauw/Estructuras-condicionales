@@ -9,13 +9,15 @@ if nota >= 6:
     print("Aprobado")
 else:
     print("Desaprobado")
+
 # Actividad 3
 numero = int(input("Ingrese un número par: "))
 if numero % 2 == 0:
     print("Ha ingresado un número par")
 else:
     print("Por favor, ingrese un número par")
-    # Actividad 4
+
+# Actividad 4
 edad_categoria = int(input("Ingrese su edad para categorizarlo: "))
 if edad_categoria < 12:
     print("Niño/a")
@@ -25,13 +27,15 @@ elif edad_categoria < 30:
     print("Adulto/a joven")
 else:
     print("Adulto/a")
-    # Actividad 5
+
+# Actividad 5
 contrasena = input("Ingrese una contraseña (8 a 14 caracteres): ")
 if 8 <= len(contrasena) <= 14:
     print("Ha ingresado una contraseña correcta")
 else:
     print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
-    # Actividad 6
+
+'''# Actividad 6
 import random
 from statistics import mean, median, mode
 numeros_aleatorios = [random.randint(1, 100) for i in range(50)]
@@ -49,4 +53,11 @@ elif media < mediana < moda:
 elif media == mediana == moda:
     print("Distribución sin sesgo")
 else:
-    print("No se puede determinar un sesgo claro con los valores obtenidos")
+    print("No se puede determinar un sesgo claro con los valores obtenidos")'''
+
+# Actividad 7
+frase = input("Ingrese una frase o palabra: ")
+if frase[-1].lower() in "aeiou":
+    frase += "!"
+print(frase)
+
