@@ -61,3 +61,15 @@ if frase[-1].lower() in "aeiou":
     frase += "!"
 print(frase)
 
+# Actividad 8
+nombre = input("Ingrese su nombre: ")
+opcion = input("Ingrese una opción (1: MAYÚSCULAS, 2: minúsculas, 3: Capitalizado): ")
+
+if opcion == "1":
+    print(nombre.upper())
+elif opcion == "2":
+    print(nombre.lower())
+elif opcion == "3":
+    print(nombre.title())
+else:
+    print("Opción inválida.")
