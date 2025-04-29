@@ -35,7 +35,7 @@ if 8 <= len(contrasena) <= 14:
 else:
     print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
 
-'''# Actividad 6
+# Actividad 6
 import random
 from statistics import mean, median, mode
 numeros_aleatorios = [random.randint(1, 100) for i in range(50)]
@@ -53,7 +53,7 @@ elif media < mediana < moda:
 elif media == mediana == moda:
     print("Distribución sin sesgo")
 else:
-    print("No se puede determinar un sesgo claro con los valores obtenidos")'''
+    print("No se puede determinar un sesgo claro con los valores obtenidos")
 
 # Actividad 7
 frase = input("Ingrese una frase o palabra: ")
