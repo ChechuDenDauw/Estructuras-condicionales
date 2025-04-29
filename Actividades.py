@@ -95,6 +95,7 @@ hemisferio = input("¿En qué hemisferio estás? (N para norte / S para sur): ")
 mes = int(input("Ingrese el mes (1 a 12): "))
 dia = int(input("Ingrese el día del mes: "))
 
+
 if not (1 <= mes <= 12 and 1 <= dia <= 31):
     print("Fecha inválida.")
 else:
